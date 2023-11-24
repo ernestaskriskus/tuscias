@@ -15,14 +15,14 @@
         <nav>
             <div class="navigation-links">
                 <ul>
-                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">Studentams</a></li>
-                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">Programos</a></li>
-                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">IT testas</a></li>
-                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">Verslui</a></li>
-                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">IT specialistu atrankos ir
+                    <li><a href="https://codeacademy.lt/studentams/">Studentams</a></li>
+                    <li><a href="https://codeacademy.lt/studentams/">Programos</a></li>
+                    <li><a href="https://codeacademy.lt/studentams/">IT testas</a></li>
+                    <li><a href="https://codeacademy.lt/studentams/">Verslui</a></li>
+                    <li><a href="https://codeacademy.lt/studentams/">IT specialistu atrankos ir
                             nuoma</a></li>
-                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">Kontaktai</a></li>
-                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">EN</a></li>
+                    <li><a href="https://codeacademy.lt/studentams/">Kontaktai</a></li>
+                    <li><a href="https://codeacademy.lt/studentams/">EN</a></li>
                     <li><a class="button" href="tel:3706456456">Skambinti</a></li>
                 </ul>
             </div>
@@ -41,60 +41,65 @@
                 </a>
             </div>
         </div>
-        <div class="kairioji-paieskos-sekcija">
-            <h2>Rastos 69 programos</h2>
-            <div class="temos-filtravimo-dalis">
-                <label>Tema</label> <br>
-                <select name="tema">
-                    <option value="visos">Visos</option>
-                    <option value="testavimas">Testavimas</option>
-                    <option value="programavimas">Programavimas</option>
-                    <option value="dizainas">Dizainas</option>
-                    <option value="duomenys">Duomenys</option>
-                    <option value="kibernetinis-saugumas">Kibernetinis saugumas</option>
-                    <option value="rinkodara">Rinkodara</option>
-                </select>
-            </div>
-            <div class="vietos-filtravimo-dalis">
-                <label>Vieta</label> <br>
-                <select name="vieta">
-                    <option value="visos">Visos</option>
-                    <option value="online">Online</option>
-                    <option value="vilnius">Vilnius</option>
-                    <option value="kaunas">Kaunas</option>
-                    <option value="klaipeda">Klaipėda</option>
-                </select>
-            </div>
-            <div class="tipo-filtravimo-dalis">
-                <label>Tipas</label> <br>
-                <select name="tipas">
-                    <option value="visi">Visi</option>
-                    <option value="in-english">Courses in English</option>
-                    <option value="pradedanciu-kursai">Pradedančių kursai</option>
-                    <option value="pazengusiu-studijos">Pažengusių studijos</option>
-                    <option value="1-2-lygis">1 + 2 lygis</option>
-                    <option value="studijos-101">Studijos 101</option>
-                    <option value="uzt-mokymai">Finansuojama UŽT - nekvalifikuotiems</option>
-                    <option value="finansuojama-uzt">Finansuojama UŽT - nedirbantiems</option>
-                    <option value="nemokamos-studijos">Finansuojama UŽT - dirbantiems</option>
-                </select>
-            </div>
-            <div class="apatine-filtravimo-dalis">
-                <div class="dienomis">
-                    <label>Laikas</label> <br>
-                    <input type="checkbox" name="dienomis">
-                    <span>Dienomis</span>
+        <form>
+            <div class="kairioji-paieskos-sekcija">
+                <h2>Rastos 69 programos</h2>
+                <div class="temos-filtravimo-dalis">
+                    <label for="temos">Tema</label> <br>
+                    <select name="tema" id="temos">
+                        <option value="visos">Visos</option>
+                        <option value="testavimas">Testavimas</option>
+                        <option value="programavimas">Programavimas</option>
+                        <option value="dizainas">Dizainas</option>
+                        <option value="duomenys">Duomenys</option>
+                        <option value="kibernetinis-saugumas">Kibernetinis saugumas</option>
+                        <option value="rinkodara">Rinkodara</option>
+                    </select>
                 </div>
-                <div class="vakarais">
-                    <label>Vakarais</label> <br>
-                    <input type="checkbox" name="vakarais">
-                    <span>Vakarais</span>
+                <div class="vietos-filtravimo-dalis">
+                    <label for="vietos">Vieta</label> <br>
+                    <select name="vieta" id="vietos">
+                        <option value="visos">Visos</option>
+                        <option value="online">Online</option>
+                        <option value="vilnius">Vilnius</option>
+                        <option value="kaunas">Kaunas</option>
+                        <option value="klaipeda">Klaipėda</option>
+                    </select>
+                </div>
+                <div class="tipo-filtravimo-dalis">
+                    <label for="tipai">Tipas</label> <br>
+                    <select name="tipas" id="tipai">
+                        <option value="visi">Visi</option>
+                        <option value="in-english">Courses in English</option>
+                        <option value="pradedanciu-kursai">Pradedančių kursai</option>
+                        <option value="pazengusiu-studijos">Pažengusių studijos</option>
+                        <option value="1-2-lygis">1 + 2 lygis</option>
+                        <option value="studijos-101">Studijos 101</option>
+                        <option value="uzt-mokymai">Finansuojama UŽT - nekvalifikuotiems</option>
+                        <option value="finansuojama-uzt">Finansuojama UŽT - nedirbantiems</option>
+                        <option value="nemokamos-studijos">Finansuojama UŽT - dirbantiems</option>
+                    </select>
+                </div>
+                <div class="apatine-filtravimo-dalis">
+                    <div class="dienomis">
+                        <label for="dienomis">
+                            <input type="checkbox" id="dienomis" name="dienomis">
+                            <span>Dienomis</span>
+                        </label>
+                    </div>
+                    <div class="vakarais">
+                        <label for="vakarais">
+                            <input type="checkbox" id="vakarais" name="vakarais">
+                            <span>Vakarais</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="mygtukas-isvalyti-pasirinkimus">
+                    <button>Isvalyti</button>
                 </div>
             </div>
-            <div class="mygtukas-isvalyti-pasirinkimus">
-                <button>Isvalyti</button>
-            </div>
-        </div>
+        </form>
+
         <div class="desinioji-dalis-programu-pasirinkimas">
             <div class="programa1">
                 <a href="https://codeacademy.lt/programavimo-kursai/devops-programa-223002955/">
@@ -107,28 +112,31 @@
                     <div class="tekstas-po-paveikslelio">
                         <h2>DevOps (223002955)</h2>
                         <p>
-                            During this course you will learn how to setup Cloud infrastructure. <br> How to automate
+                            During this course you will learn how to setup Cloud infrastructure. How to automate
                             whole
-                            creation process by using Ansible and Terraform. How to <br> run containers by using Docker
+                            creation process by using Ansible and Terraform. How to run containers by using Docker
                             and
-                            Kubernetes. And finally how to combine all <br> those skills in and create fully automated
+                            Kubernetes. And finally how to combine all those skills in and create fully automated
                             and
                             secure cloud infrastructure!
                         </p>
-                        <div class="apatine-dalis-tipas-laikas">
-                            <ul>
-                                
-                                <li><img src="/11.24.23 treciauzduotis/images/namelioIcon.png" alt="finansuojama-uzt-dirbantiem-icon">Finansuojama uzt - dirbantiems</li>
-                                <li><img src="/11.24.23 treciauzduotis/images/menulioIcon.png" alt="vakarais-icon-of-a-moon">Vakarais</li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="apatine-dalis-tipas-laikas">
+                        <ul>
+
+                            <li><img src="/11.24.23 treciauzduotis/images/namelioIcon.png"
+                                    alt="finansuojama-uzt-dirbantiem-icon">Finansuojama uzt - dirbantiems</li>
+                            <li><img src="/11.24.23 treciauzduotis/images/menulioIcon.png"
+                                    alt="vakarais-icon-of-a-moon">Vakarais</li>
+                        </ul>
                     </div>
                 </a>
             </div>
             <div class="programa2">
                 <a href="https://codeacademy.lt/programavimo-kursai/duomenu-mokslas-pradedanciu-studijos-223002956/">
                     <div class="paveikslelis">
-                        <img src="/11.24.23 treciauzduotis/images/duomenuMokslas.png" alt="image-of-duomenu-mokslas" width="100">
+                        <img src="/11.24.23 treciauzduotis/images/duomenuMokslas.png" alt="image-of-duomenu-mokslas"
+                            width="100">
                     </div>
                     <div class="virsutine-dalis-koks-tipas">
                         <span>Finansuojama užt</span>
@@ -136,15 +144,17 @@
                     <div class="tekstas-po-paveikslelio">
                         <h2>Duomenų mokslas – pradedančių studijos (223002956)</h2>
                         <p>
-                            Duomenų mokslas šiuo metu yra viena iš geriausiai apmokamų IT sektoriaus technologijų, <br> o jo populiarumas bėgant metams tik auga.
+                            Duomenų mokslas šiuo metu yra viena iš geriausiai apmokamų IT sektoriaus technologijų, o jo
+                            populiarumas bėgant metams tik auga.
                         </p>
-                        <div class="apatine-dalis-tipas-laikas">
-                            <ul>
-                                
-                                <li><img src="/11.24.23 treciauzduotis/images/namelioIcon.png">1 + 2 Lygis</li>
-                                <li><img src="/11.24.23 treciauzduotis/images/menulioIcon.png" alt="vakarais-icon-of-a-moon">Vakarais</li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="apatine-dalis-tipas-laikas">
+                        <ul>
+
+                            <li><img src="/11.24.23 treciauzduotis/images/namelioIcon.png">1 + 2 Lygis</li>
+                            <li><img src="/11.24.23 treciauzduotis/images/menulioIcon.png"
+                                    alt="vakarais-icon-of-a-moon">Vakarais</li>
+                        </ul>
                     </div>
                 </a>
             </div>
@@ -156,19 +166,24 @@
                     <div class="tekstas-po-paveikslelio">
                         <h2>„Salesforce“ CRM – pradedančių</h2>
                         <p>
-                            „Salesforce“ – įmonės operacinė sistema, leidžianti skirtingiems padaliniams sklandžiai <br> dalintis informacija, sėkmingiau aptarnauti klientus, didinti produktyvumą, o svarbiausia <br> – efektyviau išnaudoti sukauptus duomenis.
+                            „Salesforce“ – įmonės operacinė sistema, leidžianti skirtingiems padaliniams sklandžiai
+                            dalintis informacija, sėkmingiau aptarnauti klientus, didinti produktyvumą, o svarbiausia –
+                            efektyviau išnaudoti sukauptus duomenis.
                         </p>
-                        <div class="apatine-dalis-tipas-laikas">
-                            <ul>
-                                <li><img src="/11.24.23 treciauzduotis/images/namelioIcon.png" alt="finansuojama-uzt-dirbantiem-icon">1 Lygis</li>
-                                <li><img src="/11.24.23 treciauzduotis/images/menulioIcon.png" alt="vakarais-icon-of-a-moon">Vakarais</li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="apatine-dalis-tipas-laikas">
+                        <ul>
+                            <li><img src="/11.24.23 treciauzduotis/images/namelioIcon.png"
+                                    alt="finansuojama-uzt-dirbantiem-icon">1 Lygis</li>
+                            <li><img src="/11.24.23 treciauzduotis/images/menulioIcon.png"
+                                    alt="vakarais-icon-of-a-moon">Vakarais</li>
+                        </ul>
                     </div>
                 </a>
             </div>
             <div class="programa4">
-                <a href="https://codeacademy.lt/programavimo-kursai/python-soft-pradedantiesiems-uzimtiems-asmenims-223002864/">
+                <a
+                    href="https://codeacademy.lt/programavimo-kursai/python-soft-pradedantiesiems-uzimtiems-asmenims-223002864/">
                     <div class="paveikslelis">
                         <img src="/11.24.23 treciauzduotis/images/devopsimage.png" alt="image-of-python" width="100">
                     </div>
@@ -178,14 +193,17 @@
                     <div class="tekstas-po-paveikslelio">
                         <h2>Python Soft pradedantiesiems užimtiems asmenims (223002864)</h2>
                         <p>
-                            Python – aiškiai suprantama ir greitai išmokstama, tačiau labai universali ir galinga <br> programavimo kalba, todėl šią kalbą išmokti yra nesunku, o ja naudotis – smagu ir patogu.
+                            Python – aiškiai suprantama ir greitai išmokstama, tačiau labai universali ir galinga
+                            programavimo kalba, todėl šią kalbą išmokti yra nesunku, o ja naudotis – smagu ir patogu.
                         </p>
-                        <div class="apatine-dalis-tipas-laikas">
-                            <ul>
-                                <li><img src="/11.24.23 treciauzduotis/images/namelioIcon.png" alt="finansuojama-uzt-dirbantiem-icon">Finansuojama uzt - dirbantiems</li>
-                                <li><img src="/11.24.23 treciauzduotis/images/menulioIcon.png" alt="vakarais-icon-of-a-moon">Vakarais</li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="apatine-dalis-tipas-laikas">
+                        <ul>
+                            <li><img src="/11.24.23 treciauzduotis/images/namelioIcon.png"
+                                    alt="finansuojama-uzt-dirbantiem-icon">Finansuojama uzt - dirbantiems</li>
+                            <li><img src="/11.24.23 treciauzduotis/images/menulioIcon.png"
+                                    alt="vakarais-icon-of-a-moon">Vakarais</li>
+                        </ul>
                     </div>
                 </a>
             </div>

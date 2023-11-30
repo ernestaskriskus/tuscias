@@ -1,0 +1,35 @@
+h1#heading-id {
+    color: rgb(39, 32, 27);
+}
+#heading-id {
+    color: rgb(226, 206, 193);
+}
+.heading.heading {
+    color: green;
+}
+html body h1.heading {
+    color: rgb(33, 104, 33);
+}
+body h1.heading {
+    color: green;
+}
+h1.heading {
+    color: green;
+}
+.heading {
+    color: blue;
+}
+html head ~ body h1 {
+    color: brown;
+}
+html body h1 {
+    color: pink;
+}
+body h1 {
+    color: purple;
+}
+
+h1 {
+    color: green;
+    color: blue;
+}

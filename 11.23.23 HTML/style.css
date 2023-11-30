@@ -1,0 +1,289 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+.header-container {
+    position: fixed;
+    left: 0%;
+    width: 100%;
+    top: 0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.icon-of-codeacademy {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.navigation-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+ul.links-for-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    column-gap: 15px;
+}
+
+.links-for-navigation li {
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.links-for-navigation li a {
+    list-style-type: none;
+    padding: 10px;
+    color: rgb(39, 36, 34);
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: end;
+}
+
+.links-for-navigation li a:hover {
+    color: #807373;
+}
+
+.links-for-navigation li a.button {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.links-for-navigation li a.button:hover {
+    background-color: rgb(72, 72, 204);
+}
+
+.hero-section {
+    background-image: url(https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/decoration-arrows.svg);
+    background-color: black;
+    color: white;
+    height: 300%;
+    padding: 200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    max-height: fit-content;
+flex-direction: column;
+}
+
+.virsutine-dalis {
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 670px;
+    padding-bottom: 386px;
+
+}
+
+.virsutine-dalis h1 {
+    font-size: 100px;
+    margin-bottom: 1%;
+}
+
+.virsutine-dalis p {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 370%;
+}
+
+.zemesnes-dalies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 40px;
+}
+
+.studentu-dalis {
+    display: inline-block;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 115px;
+    text-align: center;
+}
+
+.studentu-dalis p {
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+a.button {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+a.button:hover {
+    background-color: rgb(72, 72, 204);
+}
+
+.verlui-dalis {
+    display: inline-block;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 115px;
+    border-left: 2px solid;
+    text-align: center;
+}
+.verlui-dalis h2{
+    margin-top: 0;
+}
+.studentu-dalis h2{
+    margin-top: 0;
+}
+.pirmas-tekstas{
+margin-bottom: 0%;
+}
+
+.antras-tekstas {
+    padding-bottom: 24px;
+    margin-top: 0%;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.pulsas-section {
+    padding: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pulsas-section .virsutine-dalis{
+    padding-bottom: 50px;
+}
+.pulsas-section .virsutine-dalis h2 {
+    font-size: 72px;
+    margin-bottom: 30px;
+    
+}
+.duomenys-kartu-su-tekstu{
+    padding-left: 200px;
+    padding-right: 168px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.duomenys-kartu-su-tekstu span{
+    padding-right: 20px;
+    
+}
+
+
+.pulsas-section .duomenys-kartu-su-tekstu p {
+    display: flex;
+    padding-left: 40px;
+    margin: 0px;
+}
+.pulsas-section .duomenys-kartu-su-tekstu .antras-tekstas{
+    padding-bottom: 80px;
+}
+
+.skaicius {
+    font-size: 100px;
+    font-weight: bold;
+    
+}
+
+.tekstas-didelis {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.tekstas {
+    font-weight: 700;
+}
+
+.duomenys-kartu-su-tekstu ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li.virsutinis {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.apatinis {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-su-trimis-zmonemis {
+    background-image: url(https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/decoration-arrows-1.svg);
+    background-color: blue;
+    padding: 200px;
+    color: white;
+}
+
+.section-su-trimis-zmonemis h2 {
+    font-size: 72px;
+}
+
+.section-su-trimis-zmonemis p {
+    font-size: 18px;
+}
+
+.section-su-trimis-zmonemis .button {
+    background-color: rgb(218, 205, 205);
+    color: rgb(47, 24, 24);
+    font-size: 18px;
+}
+
+.section-su-trimis-zmonemis .button:hover {
+    background-color: rgb(195, 188, 188);
+    color: azure;
+}
+
+.video {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-su-lentele {}

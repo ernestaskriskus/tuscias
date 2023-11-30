@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <header>
+        <header class="header-container">
     <div class="icon-of-codeacademy">
-        <img src="/images/codeacademy icon.png" alt="code-academy-icon" width="100">
+        <img src="https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/codeacademy-black.svg" alt="code-academy-icon">
     </div>
     <nav>
         <div class="navigation-links">
-            <ul>
+            <ul class="links-for-navigation">
                 <li><a href="https://codeacademy.lt/studentams/" target="_parent">Studentams</a></li>
                 <li><a href="https://codeacademy.lt/studentams/" target="_parent">Programos</a></li>
                 <li><a href="https://codeacademy.lt/studentams/" target="_parent">IT testas</a></li>
@@ -20,38 +21,42 @@
                 <li><a href="https://codeacademy.lt/studentams/" target="_parent">IT specialistu atrankos ir nuoma</a></li>
                 <li><a href="https://codeacademy.lt/studentams/" target="_parent">Kontaktai</a></li>
                 <li><a href="https://codeacademy.lt/studentams/" target="_parent">EN</a></li>
-                <li><a class="button" href="tel:3706456456">Skambinti</a></li>
+                
             </ul>
+            <li><a class="button" href="tel:3706456456">Skambinti</a></li>
         </div>
     </nav>
     </header>
     <main>
         <div class="hero-section">
         <div class="virsutine-dalis">
-            <h1>Programuok savo ateiti®</h1> 
+            <h1>Programuok savo ateitį!®</h1> 
             <p>
              CodeAcademy programavimo kursai – tiesiausias kelias technologinės karjeros link
             </p>
         </div>
-<div class="studentu-dalis">
-    <h2>Studentams</h2>
-    <p>
-        Ar žengi pirmą ar kažkelintą žingsnį link tech išsilavinimo – mes tau padėsim! <br>
-        Tiesiausias kelias link karjeros – per mus. 🏁 CodeAcademy programavimo kursai
-    </p>
-    <a href="https://codeacademy.lt/studentams/" target="_blank">SUZINOK DAUGIAU</a>
-</div>
-    <div class="verlui-dalis">
-        <h2>Verslui</h2>
-        <p>
-            Esame geriausias kompanijų draugas Edutech erdvėje.
-        </p>
-        <p>
-        Kelsime Jūsų darbuotojų kompetenciją bei atrasime talentus. 📈CodeAcademy programavimo kursai
-        </p>
-        <a href="https://codeacademy.lt/studentams/" target="_blank">SUZINOK DAUGIAU</a>
-    </div>
-</div>
+        <div class="zemesnes-dalies-container">
+            <div class="studentu-dalis">
+                <h2>Studentams</h2>
+                <p>
+                    Ar žengi pirmą ar kažkelintą žingsnį link tech išsilavinimo – mes tau padėsim! <br>
+                    Tiesiausias kelias link karjeros – per mus. 🏁 CodeAcademy programavimo kursai
+                </p>
+                <a class="button" href="https://codeacademy.lt/studentams/" target="_blank">SUZINOK DAUGIAU</a>
+            </div>
+                <div class="verlui-dalis">
+                    <h2>Verslui</h2>
+                    <p class="pirmas-tekstas">
+                        Esame geriausias kompanijų draugas Edutech erdvėje.
+                    </p>
+                    <p class="antras-tekstas">
+                    Kelsime Jūsų darbuotojų kompetenciją bei atrasime talentus. 📈CodeAcademy programavimo kursai
+                    </p>
+                    <a class="button" href="https://codeacademy.lt/studentams/" target="_blank">SUZINOK DAUGIAU</a>
+                </div>
+            </div>
+        </div>
+
     <div class="pulsas-section">
         <div class="virsutine-dalis">
             <h2>CodeAcademy pulsas</h2>
@@ -60,25 +65,25 @@
             <p>
                 Manome, jog technologinis išsilavinimas privalo sekti šiandienos ir rytojaus darbo rinkos tendencijas bei būti prieinamas kiekvienam. 🙌
             </p>
-            <p>
+            <p class="antras-tekstas">
     Šiuo principu vadovaudamiesi, kas dieną savo studentams atveriame naujas galimybes. 🔝
             </p>
             <ul>
-                <li>
-                    <span>1298</span>
-                    <span>Šiuo metu mokosi studentų</span>
+                <li class="virsutinis">
+                    <span class="skaicius">1298</span>
+                    <span class="tekstas">Šiuo metu mokosi studentų</span>
                 </li>
-                <li>
-                    <span>4762</span>
-                    <span>Viso baigė studentų</span>
+                <li class="virsutinis">
+                    <span class="skaicius">4762</span>
+                    <span class="tekstas">Viso baigė studentų</span>
                 </li>
-                <li>
-                    <span>80%</span>
-            <span>Baigę Pažengusių studijas įsidarbino</span>
+                <li class="apatinis">
+                    <span class="skaicius">80%</span>
+            <span class="tekstas">Baigę Pažengusių studijas įsidarbino</span>
                 </li>
-                <li>
-                    <span>Front-End</span>
-                    <span>Populiariausia programa</span>
+                <li class="apatinis">
+                    <span class="tekstas-didelis">Front-End</span>
+                    <span class="tekstas">Populiariausia programa</span>
                 </li>
             </ul>
         </div>
@@ -88,10 +93,10 @@
 <p>
     Kas sieja buvusį pareigūną, o dabar pensininką Kęstutį, operos solistą Algirdą ir buvusią statybų inžinierę Rugilę? 🤔   
 </p>
-<a href="https://codeacademy.lt/gali-ir-tu/">Isgirsk istorijas</a>
+<a class="button" href="https://codeacademy.lt/gali-ir-tu/">Isgirsk istorijas</a>
     </div> <br>
     <div class="video">
-    <a href="https://www.youtube.com/watch?v=b8dGCsP75HA&embeds_referring_euri=https%3A%2F%2Fcodeacademy.lt%2F&source_ve_path=MzY4NDIsMjg2NjY&feature=emb_logo" target="_self">Video</a>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/b8dGCsP75HA?si=_t67UHh5usPZjMcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 <div class="section-su-lentele">
     <div class="virsutine dalis">

@@ -1,0 +1,19 @@
+.container{
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+
+}
+.child{
+    width: 100px;
+    height: 100px;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.red{
+    background-color: red;
+}

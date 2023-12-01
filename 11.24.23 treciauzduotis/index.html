@@ -5,29 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
+    <header class="header-container">
         <div class="icon-of-codeacademy">
-            <img src="/images/codeacademy icon.png" alt="code-academy-icon" width="100">
+            <img src="https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/codeacademy-black.svg" alt="code-academy-icon">
         </div>
         <nav>
             <div class="navigation-links">
-                <ul>
-                    <li><a href="https://codeacademy.lt/studentams/">Studentams</a></li>
-                    <li><a href="https://codeacademy.lt/studentams/">Programos</a></li>
-                    <li><a href="https://codeacademy.lt/studentams/">IT testas</a></li>
-                    <li><a href="https://codeacademy.lt/studentams/">Verslui</a></li>
-                    <li><a href="https://codeacademy.lt/studentams/">IT specialistu atrankos ir
-                            nuoma</a></li>
-                    <li><a href="https://codeacademy.lt/studentams/">Kontaktai</a></li>
-                    <li><a href="https://codeacademy.lt/studentams/">EN</a></li>
-                    <li><a class="button" href="tel:3706456456">Skambinti</a></li>
+                <ul class="links-for-navigation">
+                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">Studentams</a></li>
+                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">Programos</a></li>
+                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">IT testas</a></li>
+                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">Verslui</a></li>
+                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">IT specialistu atrankos ir nuoma</a></li>
+                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">Kontaktai</a></li>
+                    <li><a href="https://codeacademy.lt/studentams/" target="_parent">EN</a></li>
+                    
                 </ul>
+                <li><a class="button" href="tel:3706456456">Skambinti</a></li>
             </div>
         </nav>
-    </header>
+        </header>
     <main>
         <div class="main-footer-desineje-puseje">
             <a href="https://codeacademy.lt/skaiciuokle/">Kainų skaičiuoklė</a>
@@ -44,9 +44,9 @@
         <div class="kairioji-paieskos-sekcija">
             <h2>Rastos 69 programos</h2>
             <form>
-                <div class="temos-filtravimo-dalis">
+                <div class="filtravimo-dalis">
                     <label for="temos">Tema</label> <br>
-                    <select name="tema" id="temos">
+                    <select class="pasirinkimo-laukas" name="tema" id="temos">
                         <option value="visos">Visos</option>
                         <option value="testavimas">Testavimas</option>
                         <option value="programavimas">Programavimas</option>
@@ -58,9 +58,9 @@
                 </div>
             </form>
             <form>
-                <div class="vietos-filtravimo-dalis">
+                <div class="filtravimo-dalis">
                     <label for="vietos">Vieta</label> <br>
-                    <select name="vieta" id="vietos">
+                    <select class="pasirinkimo-laukas" name="vieta" id="vietos">
                         <option value="visos">Visos</option>
                         <option value="online">Online</option>
                         <option value="vilnius">Vilnius</option>
@@ -70,9 +70,9 @@
                 </div>
             </form>
             <form>
-                <div class="tipo-filtravimo-dalis">
+                <div class="filtravimo-dalis">
                     <label for="tipai">Tipas</label> <br>
-                    <select name="tipas" id="tipai">
+                    <select class="pasirinkimo-laukas" name="tipas" id="tipai">
                         <option value="visi">Visi</option>
                         <option value="in-english">Courses in English</option>
                         <option value="pradedanciu-kursai">Pradedančių kursai</option>
@@ -85,7 +85,7 @@
                     </select>
                 </div>
             </form>
-            <form>
+            <form class="laiko-dalis">
                 <fieldset>
                     <legend>Laikas</legend>
                     <div class="dienomis">
@@ -98,20 +98,21 @@
                     </div>
                 </fieldset>
             </form>
-        </div>
         <div class="mygtukas-isvalyti-pasirinkimus">
             <button>Isvalyti</button>
+        </div>
         </div>
         </div>
         <div class="desinioji-dalis-programu-pasirinkimas">
             <div class="programa1">
                 <a href="https://codeacademy.lt/programavimo-kursai/devops-programa-223002955/">
-                    <div class="paveikslelis">
-                        <img src="/11.24.23 treciauzduotis/images/devopsimage.png" alt="image-of-devops" width="100">
-                    </div>
                     <div class="virsutine-dalis-koks-tipas">
                         <span>Finansuojama užt</span>
                     </div>
+                    <div class="paveikslelis">
+                        <img src="/11.24.23 treciauzduotis/images/devopsimage.png" alt="image-of-devops" width="100">
+                    </div>
+                    
                     <div class="tekstas-po-paveikslelio">
                         <h2>DevOps (223002955)</h2>
                         <p>
@@ -137,13 +138,14 @@
             </div>
             <div class="programa2">
                 <a href="https://codeacademy.lt/programavimo-kursai/duomenu-mokslas-pradedanciu-studijos-223002956/">
+                    <div class="virsutine-dalis-koks-tipas">
+                        <span>Finansuojama užt</span>
+                    </div>
                     <div class="paveikslelis">
                         <img src="/11.24.23 treciauzduotis/images/duomenuMokslas.png" alt="image-of-duomenu-mokslas"
                             width="100">
                     </div>
-                    <div class="virsutine-dalis-koks-tipas">
-                        <span>Finansuojama užt</span>
-                    </div>
+                    
                     <div class="tekstas-po-paveikslelio">
                         <h2>Duomenų mokslas – pradedančių studijos (223002956)</h2>
                         <p>
@@ -187,12 +189,13 @@
             <div class="programa4">
                 <a
                     href="https://codeacademy.lt/programavimo-kursai/python-soft-pradedantiesiems-uzimtiems-asmenims-223002864/">
-                    <div class="paveikslelis">
-                        <img src="/11.24.23 treciauzduotis/images/devopsimage.png" alt="image-of-python" width="100">
-                    </div>
                     <div class="virsutine-dalis-koks-tipas">
                         <span>Finansuojama užt</span>
                     </div>
+                    <div class="paveikslelis">
+                        <img src="/11.24.23 treciauzduotis/images/devopsimage.png" alt="image-of-python" width="100">
+                    </div>
+                    
                     <div class="tekstas-po-paveikslelio">
                         <h2>Python Soft pradedantiesiems užimtiems asmenims (223002864)</h2>
                         <p>
@@ -213,52 +216,58 @@
         </div>
     </main>
     <footer>
-        <div class="icon-of-codeacademy">
-            <img src="/11.23.23 HTML/images/codeacademy icon.png" alt="codeacademy-icon">
-        </div>
-        <div class="sarasas-pasirinkciu">
-            <ul>
-                <li>Studentams</li>
-                <li>Karjeros centras</li>
-                <li>Programos</li>
-                <li>Užt 100% finansavimas</li>
-                <li>Programavimo kalbos</li>
-                <li>Apie mus</li>
-                <li>Naujienos</li>
-                <li>Karjera – We are hiring!</li>
-                <li>Verslui</li>
-                <li>ES parama</li>
-                <li>Kontaktai</li>
-            </ul>
-        </div>
-        <div class="sarasas-adresai">
-            <ul>
-                <li><strong>Vilnius</strong></li>
-                <li>Saulėtekio al. 15, <br> Vilnius</li>
-                <li>Antakalnio g. 17, <br> Vilnius</li>
-            </ul>
-        </div>
-        <div class="soc-media">
-            <a href="https://www.facebook.com/codeacademy.lt" target="_blank">
-                <img src="/11.23.23 HTML/images/facebook.png" alt="facebook-icon" width="50">
-            </a>
-            <a href="https://www.instagram.com/codeacademy.lt/" target="_blank">
-                <img src="/11.23.23 HTML/images/instagram.png" alt="instagram-icon" width="50">
-            </a>
-            <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFL4ycEKxC_HQAAAYv9isUgGlheG-R7FSg9ZxzADxTwkePUP5iUrKqECFFG_7XO9cbYwocHA_sVPdmhXFggdMeCI3bdeXwBGO2dTniGmin0S8p9_HUAligyVaU8UI1ZCPspkms=&original_referer=https://codeacademy.lt/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fcodeacademy.lt%2F"
-                target="_blank">
-                <img src="/11.23.23 HTML/images/linkedin.png" alt="linkedin-icon" width="50">
-            </a>
-        </div>
-        <div class="apacia">
-            <div>
-                <p class="kairys-tekstas">© By UAB Programuok | CodeAcademy šeimos narys –
-                    <a href="https://www.codeacademykids.com/bureliai/">
-                        CodeAcademy Kids
+        <div class="footer-wrapper">
+            <div class="icon-of-codeacademy-footer">
+                <a href="/11.23.23 HTML/index.html"><img src="https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/codeacademy-white.svg" alt="codeacademy-icon">
+                </a>
+            </div>
+            <div class="sarasu-wrapper">
+                <div class="sarasas-pasirinkciu">
+                    <ul>
+                        <li>Studentams</li>
+                        <li>Karjeros centras</li>
+                        <li>Programos</li>
+                        <li>Užt 100% finansavimas</li>
+                        <li>Programavimo kalbos</li>
+                        <li>Apie mus</li>
+                        <li>Naujienos</li>
+                        <li>Karjera – We are hiring!</li>
+                        <li>Verslui</li>
+                        <li>ES parama</li>
+                        <li>Kontaktai</li>
+                    </ul>
+                </div>
+                <div class="sarasas-adresai">
+                    <ul>
+                        <li class="miestas" ><strong>Vilnius</strong></li>
+                        <li>Saulėtekio al. 15, <br> Vilnius</li>
+                        <li>Antakalnio g. 17, <br> Vilnius</li>
+                    </ul>
+                </div>
+                <div class="soc-media">
+                    <a href="https://www.facebook.com/codeacademy.lt" target="_blank">
+                        <img src="/11.23.23 HTML/images/facebook.png" alt="facebook-icon" width="50">
                     </a>
-                </p>
-                <p class="desinys tekstas"> <a href="https://codeacademy.lt/privatumo-politika/">Privatumo politika</a>
-                </p>
+                    <a href="https://www.instagram.com/codeacademy.lt/" target="_blank">
+                        <img src="/11.23.23 HTML/images/instagram.png" alt="instagram-icon" width="50">
+                    </a>
+                    <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFL4ycEKxC_HQAAAYv9isUgGlheG-R7FSg9ZxzADxTwkePUP5iUrKqECFFG_7XO9cbYwocHA_sVPdmhXFggdMeCI3bdeXwBGO2dTniGmin0S8p9_HUAligyVaU8UI1ZCPspkms=&original_referer=https://codeacademy.lt/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fcodeacademy.lt%2F"
+                        target="_blank">
+                        <img src="/11.23.23 HTML/images/linkedin.png" alt="linkedin-icon" width="50">
+                    </a>
+                </div>
+            </div>
+           
+            <div class="apacia">
+                <div class="apacios-wrapper">
+                    <p class="kairys-tekstas">© By UAB Programuok | CodeAcademy šeimos narys –
+                        <a href="https://www.codeacademykids.com/bureliai/">
+                            CodeAcademy Kids
+                        </a>
+                    </p>
+                    <p class="desinys-tekstas"> <a href="https://codeacademy.lt/privatumo-politika/">Privatumo politika</a>
+                    </p>
+                </div>
             </div>
         </div>
     </footer>

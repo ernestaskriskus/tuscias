@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+}
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+p {
+    font-size: 14px;
+}
+.header-container {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    z-index: 1000;
+}
+
+.icon-of-codeacademy {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navigation-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+ul.links-for-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    column-gap: 15px;
+}
+
+.links-for-navigation a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.links-for-navigation a:hover {
+    color: rgba(0, 0, 0, 0.464);
+}
+
+.links-for-navigation li {
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.navigation-links li a.button {
+    list-style-type: none;
+    padding: 10px;
+    color: rgb(39, 36, 34);
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: end;
+}
+
+.navigation-links li a.button:hover {
+    color: #807373;
+}
+
+.navigation-links li a.button {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navigation-links li a.button:hover {
+    background-color: rgb(72, 72, 204);
+}

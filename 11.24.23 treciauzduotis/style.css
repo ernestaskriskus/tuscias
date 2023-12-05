@@ -3,23 +3,18 @@
 *::after {
     box-sizing: border-box;
 }
-
 body {
     background-color: #f2f2f2;
     margin: 0;
     padding: 0;
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-margin: 0;
-    padding: 0;
-    max-width: 1504px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 p {
     font-size: 14px;
 }
-
 .header-container {
     position: fixed;
     width: 100%;
@@ -27,15 +22,13 @@ p {
     display: flex;
     justify-content: center;
     column-gap: 40px;
-    box-sizing: border-box;
+    z-index: 1000;
 }
-
 
 .icon-of-codeacademy {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-
 }
 
 .navigation-links {
@@ -44,7 +37,6 @@ p {
     justify-content: center;
     align-items: center;
     column-gap: 15px;
-
 }
 
 ul.links-for-navigation {
@@ -52,7 +44,6 @@ ul.links-for-navigation {
     flex-wrap: wrap;
     justify-content: end;
     column-gap: 15px;
-
 }
 
 .links-for-navigation a {
@@ -60,6 +51,7 @@ ul.links-for-navigation {
     color: black;
     font-weight: bold;
 }
+
 
 .links-for-navigation a:hover {
     color: rgba(0, 0, 0, 0.464);
@@ -69,7 +61,6 @@ ul.links-for-navigation {
     list-style-type: none;
     flex-wrap: wrap;
     justify-content: end;
-
 }
 
 .navigation-links li a.button {
@@ -93,7 +84,6 @@ ul.links-for-navigation {
     text-decoration: none;
     text-transform: uppercase;
 }
-
 .navigation-links li a.button:hover {
     background-color: rgb(72, 72, 204);
 }
@@ -107,17 +97,19 @@ main {
     margin: 0 auto;
     width: 100%;
     padding-top: 34px;
-    align-items: flex-start;
+    align-items: start;
+    justify-content: center; 
 }
 
 .main-footer-desineje-puseje {
     padding: 17px 20px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    align-items: center;
     padding-right: 60px;
-    width: 1095px;
+    max-width: 100%;
+    width: 100%;
 }
-
 .main-footer-desineje-puseje a {
     background-color: white;
     color: rgb(37, 35, 35);
@@ -150,6 +142,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-top: 20px;
     row-gap: 15px;
     padding: 20px;
@@ -205,9 +199,7 @@ main {
     min-width: 64.5%;
     margin-top: 20px;
     margin-left: 20px;
-
 }
-
 .programa1 {
     display: flex;
     justify-content: end;
@@ -265,6 +257,7 @@ main {
     display: flex;
     justify-content: end;
     padding-top: 20px;
+    margin-right: -30px;
 }
 
 .desinioji-dalis-programu-pasirinkimas a {
@@ -309,12 +302,13 @@ main {
 footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     background-image: url(https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/footer.svg);
     background-color: black;
     color: white;
     padding: 140px 0 135px;
-    width: 1900px;
+    width: 100%;
 }
 .icon-of-codeacademy-footer{
     display: flex;
